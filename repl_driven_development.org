@@ -1,0 +1,58 @@
+#+OPTIONS: toc:nil num:nil reveal_slide_number:nil reveal_title_slide:nil, reveal_control:nil
+#+REVEAL_THEME: beige
+#+REVEAL_TRANS: linear
+#+REVEAL_EXTRA_CSS: ./css/local.css
+* ~ 60 seconds
+* ~ 60 seconds
+#+BEGIN_SRC shell
+time (
+  cd ~/workspace/project && 
+  git pull upstream master && 
+  bootstrap.sh)
+#+END_SRC
+* ~ 60 seconds
+- ... to clean the project workspace
+- ... to change to another story
+- ... to check whether if it was a cache issue
+- ... to change the definition of a Symfony service
+* Response Times
+#+REVEAL_HTML: <div style="font-size: smaller">
+- Three important limits /(Jakob Nielsen, Usability Engineering, 1993)/.
+  + *0.1 second* is about the limit for having the user feel that the system is *reacting instantaneously*.
+  + *1.0 second* is about the limit for the *user's flow of thought* to stay uninterrupted.
+  + *10 seconds* is about the limit for *keeping the user's attention* focused on the dialogue.
+#+REVEAL_HTML: </div>
+* Immediate Connection
+#+BEGIN_QUOTE
+"Creators need an immediate connection to what they create."\\
+Bret Victor -- Inventing on Principle
+#+END_QUOTE
+* 
+  [[https://youtu.be/PUv66718DII?t=211][Inventing on Principle]]
+* He inspired ...
+- Chris Granger with *LightTable IDE* and now *Eve PL*
+- *ELM Time-Travel Debugger*
+- A lot others: Unison, Lamdu, Projucer, etc.
+
+* 
+*R* ead *E* val *P* rint *L* oop
+* Why?
+- Immediate feedback
+- Explore and internalise the problem
+- Incremental development of the solution
+- Faster than TDD
+- Debuggability
+* NASA in 1991
+#+BEGIN_QUOTE
+"Debugging a program running on a $100M piece of hardware that is 100 million miles away is an interesting experience. Having a read-eval-print loop running on the spacecraft proved invaluable in finding and fixing the problem." \\
+-- Ron Garret (NASA JPL Engineer)
+#+END_QUOTE
+* Demo
+* ... ~60 seconds
+* References
+- [VIDEO] [[https://www.youtube.com/watch?v=PUv66718DII][Inventing on Principle - Bret Victor]]
+- [VIDEO] [[https://www.youtube.com/watch?v=AmP6rW30wjE][REPL Driven Development - Daniel Lebrero]]
+- [VIDEO] [[https://www.youtube.com/watch?v=toGEegAzrZA][REPL driven mobile development with Clojure(script) - Srihari Sriraman, Nilenso]]
+- [VIDEO] [[https://vimeo.com/223309989][Repl Driven Development - Stuart Halloway]]
+- [ARTICLE] [[http://www.flownet.com/gat/jpl-lisp.html][Lisping at JPL - (NASA's Jet Propulsion Lab)]]
+- [ARTICLE] [[https://www.nngroup.com/articles/response-times-3-important-limits/][Response Times: The 3 Important Limits - Jakob Nielsen]]

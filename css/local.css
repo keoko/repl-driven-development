@@ -1,0 +1,4 @@
+.reveal h2 {
+    ;; changed to this font to render properly this character "~"
+    font-family:"Lucida Console";
+}

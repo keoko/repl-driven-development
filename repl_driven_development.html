@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<meta name="author" content="(Ignacio Cabre Barrera)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="file:///Users/icabrebarrera/dev/reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="file:///Users/icabrebarrera/dev/reveal.js/css/theme/beige.css" id="theme"/>
+
+<link rel="stylesheet" href="./css/local.css"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'file:///Users/icabrebarrera/dev/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section>
+<section id="slide-orgf9c943f">
+<h2 id="orgf9c943f">~ 60 seconds</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgac11ced">
+<h2 id="orgac11ced">~ 60 seconds</h2>
+<div class="org-src-container">
+
+<pre  class="src src-shell"><span style="color: #657b83; font-weight: bold;">time</span> (
+  <span style="color: #657b83; font-weight: bold;">cd</span> ~/workspace/project &amp;&amp; 
+  git pull upstream master &amp;&amp; 
+  bootstrap.sh)
+</pre>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org85d0bbf">
+<h2 id="org85d0bbf">~ 60 seconds</h2>
+<ul>
+<li>&#x2026; to clean the project workspace</li>
+<li>&#x2026; to change to another story</li>
+<li>&#x2026; to check whether if it was a cache issue</li>
+<li>&#x2026; to change the definition of a Symfony service</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org13cc0cb">
+<h2 id="org13cc0cb">Response Times</h2>
+<div style="font-size: smaller">
+<ul>
+<li>Three important limits <i>(Jakob Nielsen, Usability Engineering, 1993)</i>.
+<ul>
+<li><b>0.1 second</b> is about the limit for having the user feel that the system is <b>reacting instantaneously</b>.</li>
+<li><b>1.0 second</b> is about the limit for the <b>user's flow of thought</b> to stay uninterrupted.</li>
+<li><b>10 seconds</b> is about the limit for <b>keeping the user's attention</b> focused on the dialogue.</li>
+
+</ul></li>
+
+</ul>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orga3dccf9">
+<h2 id="orga3dccf9">Immediate Connection</h2>
+<blockquote nil>
+<p>
+"Creators need an immediate connection to what they create."<br />
+Bret Victor &#x2013; Inventing on Principle
+</p>
+</blockquote>
+</section>
+</section>
+<section>
+<section id="slide-org7e1ab24">
+<h2 id="org7e1ab24"></h2>
+<p>
+<a href="https://youtu.be/PUv66718DII?t=211">Inventing on Principle</a>
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org51745e3">
+<h2 id="org51745e3">He inspired &#x2026;</h2>
+<ul>
+<li>Chris Granger with <b>LightTable IDE</b> and now <b>Eve PL</b></li>
+<li><b>ELM Time-Travel Debugger</b></li>
+<li>A lot others: Unison, Lamdu, Projucer, etc.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org24e4b14">
+<h2 id="org24e4b14"></h2>
+<p>
+<b>R</b> ead <b>E</b> val <b>P</b> rint <b>L</b> oop
+</p>
+</section>
+</section>
+<section>
+<section id="slide-org1e5255d">
+<h2 id="org1e5255d">Why?</h2>
+<ul>
+<li>Immediate feedback</li>
+<li>Explore and internalise the problem</li>
+<li>Incremental development of the solution</li>
+<li>Faster than TDD</li>
+<li>Debuggability</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org734e3ee">
+<h2 id="org734e3ee">NASA in 1991</h2>
+<blockquote nil>
+<p>
+"Debugging a program running on a $100M piece of hardware that is 100 million miles away is an interesting experience. Having a read-eval-print loop running on the spacecraft proved invaluable in finding and fixing the problem." <br />
+&#x2013; Ron Garret (NASA JPL Engineer)
+</p>
+</blockquote>
+</section>
+</section>
+<section>
+<section id="slide-orgb9245cd">
+<h2 id="orgb9245cd">Demo</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgee957a2">
+<h2 id="orgee957a2">&#x2026; ~60 seconds</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgb0d07c2">
+<h2 id="orgb0d07c2">References</h2>
+<ul>
+<li>[VIDEO] <a href="https://www.youtube.com/watch?v=PUv66718DII">Inventing on Principle - Bret Victor</a></li>
+<li>[VIDEO] <a href="https://www.youtube.com/watch?v=AmP6rW30wjE">REPL Driven Development - Daniel Lebrero</a></li>
+<li>[VIDEO] <a href="https://www.youtube.com/watch?v=toGEegAzrZA">REPL driven mobile development with Clojure(script) - Srihari Sriraman, Nilenso</a></li>
+<li>[VIDEO] <a href="https://vimeo.com/223309989">Repl Driven Development - Stuart Halloway</a></li>
+<li>[ARTICLE] <a href="http://www.flownet.com/gat/jpl-lisp.html">Lisping at JPL - (NASA's Jet Propulsion Lab)</a></li>
+<li>[ARTICLE] <a href="https://www.nngroup.com/articles/response-times-3-important-limits/">Response Times: The 3 Important Limits - Jakob Nielsen</a></li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="file:///Users/icabrebarrera/dev/reveal.js/lib/js/head.min.js"></script>
+<script src="file:///Users/icabrebarrera/dev/reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: false,
+progress: true,
+history: false,
+center: true,
+slideNumber: false,
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'file:///Users/icabrebarrera/dev/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'file:///Users/icabrebarrera/dev/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///Users/icabrebarrera/dev/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///Users/icabrebarrera/dev/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'file:///Users/icabrebarrera/dev/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
